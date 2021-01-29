@@ -1,6 +1,8 @@
 # woc3.0-ecommerce-price-tracker-Taksh-Bhatt
 This repository contains all files for project of web scrapping and automation using python, Django and Selenium
+
 The **Scripts** directory contains python scripts that perform web scrapping and automation only i.e. it does not contain any Django part.
+
 The **django_part** directory contains **all** the required python and Django scripts which include web scrapping and automation scripts as well as Django part.
 
 ## To run the scripts in **Scripts** directory, follow the below steps:
