@@ -1,0 +1,75 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <style>
+        .button1 {
+            outline-color: grey;
+            background-color: white;
+            color: black;
+            border: 2px solid lightslategrey;
+            margin-left: 570px;
+            text-align: center;
+            height: 40px;
+            width: 90px;
+            font-size: 20px;
+            border-radius: 10px;
+
+        }
+
+        .button1:hover {
+            background-color: #4CAF50;
+            border: 2px solid #4CAF50;
+            color: white;
+        }
+
+    </style>
+
+    <h1 style="text-align: center;margin-top: 0;padding-top: 12px ;height: 40px;color: dodgerblue;text-shadow: 2px 2px 5px lightslategrey;font-family: 'Cooper Black';font-size: 50px">FLIBAZON</h1>
+    <br>
+
+    <form action="get_info" method="post" style="margin-left: 30px; font-family:Courier; font-size: 17px">
+        {% csrf_token %}
+        <h2 style="color: white">
+
+            Select an e-commerce website :
+            <input style="height: 20px; width: 20px;" type="radio" name="website" value="1">
+            <label for="Amazon">Amazon</label>
+            <input style="height: 20px; width: 20px;" type="radio" name="website" value="2">
+            <label for="Flipkart">Flipkart</label>
+            <input style="height: 20px; width: 20px;" type="radio" name="website" value="3">
+            <label for="ebay">ebay</label>
+
+        </h2>
+
+        <br>
+
+        <h2 style="color: white">
+
+            Enter the product url : <input type="url" style="font-size: 16px;outline: none;height: 20px; width: 700px; border-radius: 7px" name="url" title="Enter the product url">
+
+        </h2>
+
+        <br>
+
+        <h2 style="color: white">
+            Enter your desired price: <input type="text" style="font-size: 16px;outline: none;height: 20px; width: 100px; border-radius: 7px" name="price" title="Enter your desired price">
+        </h2>
+
+        <br>
+
+        <h2 style="color: white">
+
+            Enter your email Id : <input type="text" style="font-size: 16px;outline: none;height: 20px; width: 300px; border-radius: 7px;" name="email_Id" title="Enter your email Id">
+
+        </h2>
+
+        <br>
+
+        <!--<input type="submit" style="background-color: green;margin-left: 570px;text-align: center;height: 30px; width: 90px; font-size: 20px; border-radius: 10px;">-->
+        <input type="submit" class="button1">
+
+    </form>
+
+{% endblock %}
+
