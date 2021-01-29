@@ -7,8 +7,8 @@ The **django_part** directory contains **all** the required python and Django sc
 
 ## To run the scripts in **Scripts** directory, follow the below steps:
 1. Open **main.py** file in Scripts directory.
-2. On line number 10 where it is written in double quotes("______Your email Id goes here______"), replace the text(not double quotes) with your email Id.
-3. On line number 12 where it is written in double quotes("______The password goes here______"), replace the text(not double quotes) with the app password(not that with which you login)
+2. On line number 10 where it is written in double quotes("___ ___Your email Id goes here___ ___"), replace the text(not double quotes) with your email Id.
+3. On line number 12 where it is written in double quotes("___ ___The password goes here___ ___"), replace the text(not double quotes) with the app password(not that with which you login)
     that email service provider gives for your device.
 4. Finally, run **main.py** file.
 
