@@ -22,8 +22,8 @@ The **django_part** directory contains **all** the required python and Django sc
 5. Now, open **python console**(not terminal) of your python IDE and run following two commands:
       - From Flibazon import main_script
       - main_script.run_main_script()<br />
-    These will start the backend process of scrapping websites and sending automated emails **even if the server is off**. The **main_script** will keep on running at
-    every **10 second** interval until you stop it.
+   These will start the backend process of scrapping websites and sending automated emails **even if the server is off**. The **main_script** will keep on running at
+   every **10 second** interval until you stop it.
 6. Finally, open **terminal**, set the current directory as your project directory and run the following command:
       - python manage.py runserver<br />
-    This will start the server and then click on the link it provides at last to run the website.
+   This will start the server and then click on the link it provides at last to run the website.
