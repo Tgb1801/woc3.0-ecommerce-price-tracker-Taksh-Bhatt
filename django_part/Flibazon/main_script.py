@@ -11,9 +11,9 @@ from .models import next_run_time
 
 
 def run_main_script():
-    sender_email = os.environ.get('MY_EMAIL_ADD')
+    sender_email = "___Your email Id goes here___"
 
-    email_pass = os.environ.get('MY_EMAIL_PASS')
+    email_pass = "___The password goes here___"
 
     # print("TIME:", next_run_time.objects.get(id=1).time)
 
