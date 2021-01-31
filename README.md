@@ -30,4 +30,4 @@ The **django_part** directory contains **all** the required python and Django sc
 
 
 ## The drive link for demonstration video of this application is given below:
-(Application Demo)[https://drive.google.com/file/d/1h25fDLzSqQLslshPabVyKxJkSSMUKu0Y/view?usp=sharing]
+[Application Demo](https://drive.google.com/file/d/1h25fDLzSqQLslshPabVyKxJkSSMUKu0Y/view?usp=sharing)
