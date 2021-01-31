@@ -27,3 +27,7 @@ The **django_part** directory contains **all** the required python and Django sc
 6. Finally, open **terminal**, set the current directory as your project directory and run the following command:
       - python manage.py runserver<br />
     This will start the server and then click on the link it provides at last to run the website.
+
+
+## The drive link for demonstration video of this application is given below:
+(Application Demo)[https://drive.google.com/file/d/1h25fDLzSqQLslshPabVyKxJkSSMUKu0Y/view?usp=sharing]
