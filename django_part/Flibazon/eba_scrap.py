@@ -1,13 +1,16 @@
 # ebay Website
 
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+#webdriver_manager automatically downloads the required version of the webdriver.
 
-PATH = "C:\Program Files (x86)\chromedriver.exe"
+# PATH = "C:\Program Files (x86)\chromedriver.exe"
 
 options = webdriver.ChromeOptions()
 options.headless = True
 
-driver = webdriver.Chrome(PATH, options=options)
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+# driver = webdriver.Chrome(PATH, options=options)
 
 
 def get_product_name_from_eba(url):
